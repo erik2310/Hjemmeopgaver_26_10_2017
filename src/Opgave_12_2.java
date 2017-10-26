@@ -15,7 +15,7 @@ public class Opgave_12_2 {
 
                 // Display the result
                 int result = number1 + number2;
-                System.out.println("The sum of the 2 numbers is " + result);
+                System.out.println("The sum of the 2 numbers is " + result + ".");
 
                 continueInput = false;
             }
