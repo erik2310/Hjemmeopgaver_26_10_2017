@@ -16,7 +16,7 @@ public class Opgave_12_24 {
             System.exit(1);
         }
 
-        // Laver filen Exercise12_15.txt
+        // Laver filen Salary.txt
         PrintWriter writeToFile = new PrintWriter(file);
 
         // Laver et random objekt af klassen Random
