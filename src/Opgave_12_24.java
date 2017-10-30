@@ -22,8 +22,7 @@ public class Opgave_12_24 {
         // Laver et random objekt af klassen Random
         Random random = new Random();
 
-        // Udskriver 1000 FirstNames og LastNames ind i filen med mellemrum
-        // Den laver bare ikke 2 tal efter punktumet hvis tallet er 9 eller lavere, men gad ikke at fikse det xD
+        // Udskriver 1000 FirstNames og LastNames ind i filen med mellemrum og 2 digits efter punktum
         for (int i = 1; i <= 1000; i++) {
             writeToFile.print("FirstName" + i + " " + "LastName" + i + " ");
 
@@ -33,17 +32,38 @@ public class Opgave_12_24 {
             // Tjekker hvad rankGenerator har fået af tal og udskriver en af de 3
             if (rankGenerator == 0) {
                 int salaryNumber = 50000 + random.nextInt(30000 + 1);
-                writeToFile.print("assistant " + salaryNumber + "." + random.nextInt(99 + 1));
+                int randomDigits = random.nextInt(99 + 1);
+                writeToFile.print("assistant " + salaryNumber + ".");
+
+                if (randomDigits < 10) {
+                    writeToFile.print("0" + randomDigits);
+                } else {
+                    writeToFile.print(randomDigits);
+                }
             }
 
             if (rankGenerator == 1) {
                 int salaryNumber = 60000 + random.nextInt(50000 + 1);
-                writeToFile.print("associate " + salaryNumber + "." + random.nextInt(99 + 1));
+                int randomDigits = random.nextInt(99 + 1);
+                writeToFile.print("associate " + salaryNumber + ".");
+
+                if (randomDigits < 10) {
+                    writeToFile.print("0" + randomDigits);
+                } else {
+                    writeToFile.print(randomDigits);
+                }
             }
 
             if (rankGenerator == 2) {
                 int salaryNumber = 75000 + random.nextInt(55000 + 1);
-                writeToFile.print("full " + salaryNumber + "." + random.nextInt(99 + 1));
+                int randomDigits = random.nextInt(99 + 1);
+                writeToFile.print("full " + salaryNumber + ".");
+
+                if (randomDigits < 10) {
+                    writeToFile.print("0" + randomDigits);
+                } else {
+                    writeToFile.print(randomDigits);
+                }
             }
 
             // Laver en ny linje
