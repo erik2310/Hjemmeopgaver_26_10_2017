@@ -9,7 +9,7 @@ public class Opgave_12_2 {
         Scanner input = new Scanner(System.in);
         boolean continueInput = true;
 
-        do  {
+        do {
             try {
                 System.out.println("Enter 2 integers: ");
                 int number1 = input.nextInt();
@@ -20,8 +20,7 @@ public class Opgave_12_2 {
                 System.out.println("The sum of the 2 numbers is " + result + ".");
 
                 continueInput = false;
-            }
-            catch (InputMismatchException ex) {
+            } catch (InputMismatchException ex) {
                 System.out.println("Try again. (Incorrect input: integers are required)");
                 input.nextLine();
 

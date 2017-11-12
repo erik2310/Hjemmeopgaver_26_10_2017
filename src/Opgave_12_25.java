@@ -57,7 +57,7 @@ public class Opgave_12_25 {
             }
         } catch (MalformedURLException ex) {
             System.out.println("Invalid URL.");
-        } catch (IOException ex)    {
+        } catch (IOException ex) {
             System.out.println("I/O Errors: no such file.");
         }
 
@@ -87,7 +87,7 @@ public class Opgave_12_25 {
     }
 
     // Metode til at formatere double tal så de kommer ud med 2 decimaler efter punktum
-     private static double round(double numberToRound) {
+    private static double round(double numberToRound) {
         String round = String.format("%.2f", numberToRound);
         round = round.replace(",", ".");
         return Double.valueOf(round);
