@@ -8,6 +8,8 @@ import java.util.Scanner;
 
 public class Opgave_12_15 {
 
+    // Lavet af Erik Ruhmanis
+
     public static void main(String[] args) throws IOException {
 
         // Laver et file objekt af klassen File til Exercise12_15.txt

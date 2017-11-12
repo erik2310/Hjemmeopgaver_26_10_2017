@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Opgave_12_2 {
 
+    // Lavet af Erik Ruhmanis
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         boolean continueInput = true;

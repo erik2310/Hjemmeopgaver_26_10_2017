@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Opgave_12_3 {
 
+    // Lavet af Erik Ruhmanis
+
     public static void main(String[] args) {
 
         // Laver et random objekt af klassen Random

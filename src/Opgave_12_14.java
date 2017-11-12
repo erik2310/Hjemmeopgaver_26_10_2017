@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Opgave_12_14 {
 
+    // Lavet af Erik Ruhmanis
+
     public static void main(String[] args) throws Exception {
 
         try {

@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class Opgave_12_25 {
 
+    // Lavet af Erik Ruhmanis
+
     public static void main(String[] args) {
 
         double totalAssistant = 0.0;

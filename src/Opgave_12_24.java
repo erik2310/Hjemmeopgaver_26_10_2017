@@ -5,6 +5,8 @@ import java.util.Random;
 
 public class Opgave_12_24 {
 
+    // Lavet af Erik Ruhmanis
+
     public static void main(String[] args) throws IOException {
 
         // Laver et file objekt af klassen File til Salary.txt
